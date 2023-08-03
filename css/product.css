@@ -1,4 +1,4 @@
-/* Your existing CSS styles for header, logo, and navigation here */
+
 
 /* New CSS styles for responsive layout */
 .search-box {
@@ -8,8 +8,8 @@
 
 .search-box input[type="text"] {
   flex: 1;
-  max-width: 1000px; /* adjust the maximum width as per your preference */
-  margin-right: 4px; /* Add space between input and button */
+  max-width: 1000px; /*  maximum width as per your preference */
+  margin-right: 4px; /* space between input and button */
 }
 
 .search-box button {
@@ -70,4 +70,8 @@ input {
   height: 100%;
   width: 100%;
   padding: 6px 10px;
+}
+
+.heading{
+  margin-top: 100px;
 }
