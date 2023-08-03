@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
   --primary-color: #3bb77e;
@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb{
 
 section{
   padding: 2rem 7%;
-}
+} 
 
 
 .heading{
@@ -78,7 +78,7 @@ section{
 
 /* header */
 
-.header{
+ .header{
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
@@ -202,8 +202,8 @@ margin-right: 10px;
 
 .header .shopping-cart .btn{
   text-align: center;
-  width: 100%;
-}
+  width: 100%; 
+} */
 
 /* end */
 

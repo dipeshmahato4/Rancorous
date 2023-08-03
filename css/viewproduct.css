@@ -89,19 +89,19 @@ body {
   .product-links a {
     margin-right: 10px;
     display: inline-block;
-    background-color: #09ff09; /* Set background color to white */
+    /* background-color: rgb(225,248,238); 
     border-radius: 60%; /* Make the icon container circular */
     padding: 8px; 
     transition: background-color 0.3s ease;
   }
   .product-links a:hover {
-    background-color: #f10f0f; /* Change background color on hover */
+    background-color: yellow; /* Change background color on hover */
   }
   
   .product-links a i.fa {
     
     font-size: 24px;
-    color: #333; /* Increase the font size as needed */
+     color: rgb(222, 69, 94); /*Increase the font size as needed */
   }
   @media (max-width: 600px) {
     .product-card {

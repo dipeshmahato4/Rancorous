@@ -149,6 +149,7 @@
   justify-content: center;
 }
 
+
 .buy-again-icon {
   width: 25px;
   margin-right: 15px;
@@ -214,4 +215,8 @@
     width: 100%;
     padding: 12px;
   }
+}
+
+.buy-again-button:hover{
+  background-color: rgb(60, 205, 60);
 }
