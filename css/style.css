@@ -45,6 +45,7 @@ section{
 
 
 .heading{
+ 
   text-align: center;
   padding: 1.2rem 0;
   margin-bottom: 3rem;
@@ -732,42 +733,29 @@ margin-right: 10px;
     font-size: 50%;
   }
 
-  .home .content h3{
-    font-size: 3.5rem;
-  }
-}
+  
 
 /* signup */
 
-.button-container {
+/* Styling for "Show More" button */
+.button-container1 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  margin-top: 20px;
 }
 
-/* Styling for the "Show More" button */
 .show-more-button {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 12px 24px;
-  background: linear-gradient(45deg, #ff4b2b, #ff416c); /* Gradient from orange to pink */
-  color: #FFFFFF; /* Text color */
+  background-color: var(--primary-color);
+  color: var(--white);
   border: none;
-  border-radius: 30px; 
-  font-size: 18px;
-  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
-  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+  text-decoration: none; /* Remove underline from button */
 }
 
-/* Hover effect */
 .show-more-button:hover {
-  background: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient on hover */
-  transform: scale(1.05); /* Slightly scale the button on hover */
+  background-color: var(--secondary);
 }
-.show-more-link {
-  text-decoration: none; 
 }
-

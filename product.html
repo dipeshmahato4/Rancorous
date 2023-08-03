@@ -16,13 +16,14 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/signpage.css">
     <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./checkout.html">
   
   <title>products</title>
 </head>
 <body>
   <header class="header">
     <!-- logo -->
-<a href="./main.html" class="logo"> <img src="./images/silajit4-01.jpg" ></i> Rancorous </a> 
+<a href="./main.html" class="logo"> <img src="./images/silajit4-01.png" ></i> Rancorous </a> 
 
  <!-- Search Box -->
  <form id="form" role="search">
@@ -39,6 +40,38 @@
             <a href="#review">review</a>
             <a href="#contact">contact us</a>
 </nav>
+
+<div class="icons">
+  <div id="cart-btn" class="fas fa-shopping-basket"></div>
+  <div id="login-btn" class="fas fa-user"></div>
+  <div id="menu-btn" class="fas fa-bars"></div>
+</div>
+
+<div class="shopping-cart">
+
+
+
+  <div class="box">
+      <i class="fas fa-times"></i>
+      <img src="./images/cart4.jpg" >
+      <div class="content">
+          <h3>product name</h3>
+          <span class="price">$14.99</span>
+      </div>
+  </div>
+
+  <div class="box">
+      <i class="fas fa-times"></i>
+      <img src="./images/cart2.jpg">
+      <div class="content">
+          <h3>product name</h3>
+          <span class="price">$18.99</span>
+      </div>
+  </div>
+  <h3 class="total"> total: <span> $56.89</span></h3>
+  <a href="./checkout.html" class="btn">checkout</a>
+</div>
+
 
 </header>
 <section class="product" id="product">
@@ -238,5 +271,6 @@
 </section>
 
   
+<script src="./js/script.js"></script>
 </body>
 </html>

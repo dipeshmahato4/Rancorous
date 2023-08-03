@@ -73,7 +73,6 @@
 
   .order-date,
   .order-total {
-    
     display: grid;
     grid-template-columns: auto 1fr;
     
@@ -139,7 +138,7 @@
 }
 
 .buy-again-button {
-  background-color: rgb(95, 220, 95);
+  background-color: cornsilk;
   color: black;
   font-size: 15px;
   width: 140px;

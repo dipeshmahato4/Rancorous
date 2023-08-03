@@ -62,10 +62,47 @@ button:hover {
   }
 }
 
-/* For screens smaller than 576px (e.g., mobile devices) */
 @media (max-width: 576px) {
   .form-container {
       width: 100%;
       padding: 20px;
   }
 }
+
+
+.alreadyacc{
+  margin-top: 10px;
+  font-size: 20px;
+  color: blue;
+  
+}
+.alreadyacc:hover{
+  color: red;
+  cursor: pointer;
+}
+.submit{
+  margin-top: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  order: 2;
+  margin-left: 5px;
+}
+
+/* Style the checkbox */
+.form-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+
