@@ -145,6 +145,7 @@ body {
   .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Reduce the minmax value to make the boxes smaller */
+    max-width: 300px;
     gap: 2rem;
   }
   
