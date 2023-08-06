@@ -151,7 +151,7 @@ section {
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #c8bcbc;
   outline: none;
   resize: none;
 }
@@ -164,7 +164,7 @@ section {
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #666;
+  color: #f0131375;
 }
 
 .contact-form .input-box input:focus ~ span,
