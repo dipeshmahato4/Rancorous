@@ -93,6 +93,7 @@ background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e855
 color: #fff;
 border-radius: 20px;
 transition: 0.5s;
+text-decoration: none;
 
 }
 .active{
@@ -100,5 +101,7 @@ background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e855
 color: #fff;
 border-radius: 20px;
 text-decoration: none;
-
+}
+a{
+  text-decoration: none;
 }
